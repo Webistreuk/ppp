@@ -159,24 +159,80 @@ main {
 
 .flex-container3 {
     display: flex;
-    background-color: antiquewhite;
+    justify-content: center;
     height: 275px;
     width: 900px; 
+    margin-left: 125px;
+}
+
+.flex-spawn1 {
+    padding-top: 7px;
+    width: 100px;
+    height: 200px;
 }
 
 .flex-spawn1 img {
-    width: 160px;
+    width: 120px;
     height: 60px;  
 }
 
 .flex-spawn2 {
-    padding-right: 250px;
+    width: 100px;
+    height: 200px;
 }
 
-.flex-spawn2 img {
-    width: 160px;
-    height: 60px;  
+.flex-spawn2 img {  
+    width: 120px;
+    height: 75px;  
 }
+
+.flex-spawn3 {
+    width: 200px;
+    height: 200px;
+    border: 2px;
+    padding-left: 90px;
+}
+
+.flex-spawn3 img {
+    width: 4px;
+    height: 80px;
+}
+
+.flex-spawn4 {
+    padding-top: 7px;
+    width: 200px;
+    height: 200px;
+}
+
+.flex-spawn5 {
+    margin-right: 325px;
+    width: 200px;
+    height: 200px;
+}
+
+.flex-spawn6 {
+    width: 200px;
+    height: 200px;
+    border: 2px;
+}
+
+.flex-spawn6 img {
+    width: 4px;
+    height: 80px;
+}
+
+.flex-item7 {
+    width: 200px;
+    height: 200px;
+    
+}
+
+.flex-item8{
+    width: 200px;
+    height: 200px;
+}
+
+
 
 footer { 
     font-size: 20px;
@@ -207,18 +263,6 @@ footer {
     text-align: left;
 }
 
-.lasl {
-    background-color: #ccc;
-}
-
-.lasl p {
-    left: 20px;
-}
-
-.flex-item1 .terre {
-
-}
-
 .flex-item1 .world {
     margin-top: 40px;
 }
@@ -226,21 +270,21 @@ footer {
 .flex-item2 {
     text-align: center;              
     color: rgb(7, 7, 7);
-    text-align: left;
-           
+    text-align: left;        
 }
+
 .flex-item3{
     text-align:center;
     color: rgb(12, 12, 12);
     padding-left: 100px;
-    text-align: left;
-        
+    text-align: left;      
 }
+
 .flex-item4 {
     width: 200px;
     text-align:center;
     color: rgb(2, 2, 2);
     padding-left: 100px;
     text-align: left;
-   
 }
+
